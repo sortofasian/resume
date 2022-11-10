@@ -1,0 +1,28 @@
+a {
+    color: rgb(98, 174, 212);
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+h2 {
+    font-size: 2vh;
+    margin-bottom: 0.6vh;
+}
+h3 {
+    font-size: 1.25vh;
+}
+h2,
+h3 {
+    color: rgb(98, 174, 212);
+}
+h4 {
+    font-size: 1.2vh;
+}
+
+p,
+div {
+    font-size: 1.2vh;
+}

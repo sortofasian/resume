@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    padding: 1.5vh;
+    text-shadow: 0 0.5vh 1.5vh rgba(60, 60, 60, 0.5);
+}
+
+.contact {
+    height: min-content;
+}
+.contact > * {
+    text-align: right;
+    text-shadow: 0 0.5vh 1.5vh rgba(60, 60, 60, 0.5);
+    margin: 0.5vh;
+}
