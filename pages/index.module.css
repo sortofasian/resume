@@ -1,0 +1,77 @@
+.page {
+    margin: auto;
+
+    height: 60rem;
+    width: calc(60rem * 0.772);
+    padding: 1.5rem;
+
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+
+}
+.page > * {
+    margin-bottom: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact > * {
+    text-align: right;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    margin: -0.5rem;
+    align-items: stretch;
+}
+.rows {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
+}
+.rows > * {
+    flex-grow: 1
+}
+
+.xp {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sublist {
+    margin-top: 0.5rem;
+    list-style: disc;
+}
+.sublist > li {
+    margin: 0.125rem;
+}
+
+.skillicons {
+    display: grid;
+    place-content: stretch;
+    place-items: center;
+    grid-template-columns: repeat(3, auto);
+    gap: 0.75rem;
+    padding: 0.5rem;
+    text-align: center;
+    place-self: center;
+}
+.skillicons > * > svg {
+    display: block;
+    margin: auto;
+    margin-bottom: 0.25rem;
+    height: 2rem;
+    width: 2rem;
+}

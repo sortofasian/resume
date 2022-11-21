@@ -1,0 +1,54 @@
+:root {
+    font-size: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box !important;
+    letter-spacing: 0;
+}
+ul {
+    padding-left: 1rem;
+}
+li {
+    margin: 0.5rem 0;
+}
+html,
+body {
+    font-family: -apple-systrem, BlinkMacSystremFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+        Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+h2 {
+    color: #44abd0;
+    font-size: 1.5rem;
+}
+h1,
+h2,
+h3 {
+    margin-bottom: 0.25rem;
+    text-shadow: 0 0.15rem 0.75rem rgba(60, 60, 60, 0.3);
+}
+h3 {
+    font-size: 1rem;
+}
+p,
+li,
+div {
+    font-size: 0.95rem;
+}
+a,
+a:visited {
+    color: #44abd0;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.2s;
+}
+a:hover {
+    text-decoration-color: #44abd0;
+}
